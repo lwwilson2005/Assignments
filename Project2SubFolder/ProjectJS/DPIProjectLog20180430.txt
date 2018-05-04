@@ -1,0 +1,11 @@
+
+C:\TDA\JS>node dpiproject
+DPI1P V1.2 is running..started on:  2018-04-30T15:01:55.910Z :: 8001
+Got a DPI Table request from:  ::ffff:192.168.88.1  at  2018-04-30T15:02:27.414Z
+1 1 ProJEct2 Clean_acc_drug_deaths
+password accepted
+select * from Clean_acc_drug_deaths;
+Got a DPI Table request from:  ::ffff:192.168.88.1  at  2018-04-30T15:02:37.337Z
+1 1 ProJEct2 Clean_personal_inc
+password accepted
+select * from Clean_personal_inc;

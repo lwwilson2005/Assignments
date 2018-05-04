@@ -1,0 +1,211 @@
+[
+    {
+        "2009": "6501",
+        "2010": "6115",
+        "2011": "6251",
+        "2012": "6404",
+        "2013": "5782",
+        "Field7": null,
+        "Field8": null,
+        "ID": 1,
+        "Weapon": "Handguns"
+    },
+    {
+        "2009": "351",
+        "2010": "367",
+        "2011": "332",
+        "2012": "298",
+        "2013": "285",
+        "Field7": null,
+        "Field8": null,
+        "ID": 2,
+        "Weapon": "Rifles"
+    },
+    {
+        "2009": "423",
+        "2010": "366",
+        "2011": "362",
+        "2012": "310",
+        "2013": "308",
+        "Field7": null,
+        "Field8": null,
+        "ID": 3,
+        "Weapon": "Shotguns"
+    },
+    {
+        "2009": "96",
+        "2010": "93",
+        "2011": "97",
+        "2012": "116",
+        "2013": "123",
+        "Field7": null,
+        "Field8": null,
+        "ID": 4,
+        "Weapon": "Other guns"
+    },
+    {
+        "2009": "1828",
+        "2010": "1933",
+        "2011": "1611",
+        "2012": "1769",
+        "2013": "1956",
+        "Field7": null,
+        "Field8": null,
+        "ID": 5,
+        "Weapon": "Firearms, type not stated"
+    },
+    {
+        "2009": "1836",
+        "2010": "1732",
+        "2011": "1716",
+        "2012": "1604",
+        "2013": "1490",
+        "Field7": null,
+        "Field8": null,
+        "ID": 6,
+        "Weapon": "Knives or cutting instruments"
+    },
+    {
+        "2009": "623",
+        "2010": "549",
+        "2011": "502",
+        "2012": "522",
+        "2013": "428",
+        "Field7": null,
+        "Field8": null,
+        "ID": 7,
+        "Weapon": "Blunt objects (clubs, hammers, etc.)"
+    },
+    {
+        "2009": "817",
+        "2010": "769",
+        "2011": "751",
+        "2012": "707",
+        "2013": "687",
+        "Field7": null,
+        "Field8": null,
+        "ID": 8,
+        "Weapon": "Personal weapons (hands, fists, feet, etc.)1"
+    },
+    {
+        "2009": "7",
+        "2010": "11",
+        "2011": "5",
+        "2012": "13",
+        "2013": "11",
+        "Field7": null,
+        "Field8": null,
+        "ID": 9,
+        "Weapon": "Poison"
+    },
+    {
+        "2009": "2",
+        "2010": "4",
+        "2011": "6",
+        "2012": "8",
+        "2013": "2",
+        "Field7": null,
+        "Field8": null,
+        "ID": 10,
+        "Weapon": "Explosives"
+    },
+    {
+        "2009": "98",
+        "2010": "78",
+        "2011": "76",
+        "2012": "87",
+        "2013": "94",
+        "Field7": null,
+        "Field8": null,
+        "ID": 11,
+        "Weapon": "Fire"
+    },
+    {
+        "2009": "52",
+        "2010": "45",
+        "2011": "33",
+        "2012": "38",
+        "2013": "53",
+        "Field7": null,
+        "Field8": null,
+        "ID": 12,
+        "Weapon": "Narcotics"
+    },
+    {
+        "2009": "8",
+        "2010": "10",
+        "2011": "15",
+        "2012": "14",
+        "2013": "4",
+        "Field7": null,
+        "Field8": null,
+        "ID": 13,
+        "Weapon": "Drowning"
+    },
+    {
+        "2009": "122",
+        "2010": "122",
+        "2011": "88",
+        "2012": "90",
+        "2013": "85",
+        "Field7": null,
+        "Field8": null,
+        "ID": 14,
+        "Weapon": "Strangulation"
+    },
+    {
+        "2009": "84",
+        "2010": "98",
+        "2011": "92",
+        "2012": "106",
+        "2013": "95",
+        "Field7": null,
+        "Field8": null,
+        "ID": 15,
+        "Weapon": "Asphyxiation"
+    },
+    {
+        "2009": "904",
+        "2010": "872",
+        "2011": "858",
+        "2012": "802",
+        "2013": "850",
+        "Field7": null,
+        "Field8": null,
+        "ID": 16,
+        "Weapon": "Other weapons or weapons not stated"
+    },
+    {
+        "2009": null,
+        "2010": null,
+        "2011": null,
+        "2012": null,
+        "2013": null,
+        "Field7": null,
+        "Field8": null,
+        "ID": 17,
+        "Weapon": null
+    },
+    {
+        "2009": null,
+        "2010": null,
+        "2011": null,
+        "2012": null,
+        "2013": null,
+        "Field7": null,
+        "Field8": null,
+        "ID": 18,
+        "Weapon": null
+    },
+    {
+        "2009": null,
+        "2010": null,
+        "2011": null,
+        "2012": null,
+        "2013": null,
+        "Field7": null,
+        "Field8": null,
+        "ID": 19,
+        "Weapon": null
+    }
+]
