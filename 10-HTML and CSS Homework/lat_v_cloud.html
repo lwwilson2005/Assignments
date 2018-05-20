@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- This links to a specific bootswatch styling theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/cerulean/bootstrap.min.css">
+  <!-- This links to a local css file on your computer -->
+  <link rel="stylesheet" type='text/css' href="css/styles.css">
+  <!-- This links to fontawesome for text formats -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <title>Cloudiness</title>
+</head>
+
+<body>
+  <header class="navbar navbar-light bg-light navbar-expand-md">
+    <div class="navbar-brand" role="navigation">
+      <i class="far fa-chart-bar"></i>
+      <a href="index.html"> Web Visuals</a>
+    </div>
+    <button class="btn btn-outline-primary navbar-toggler" data-toggle="collapse" data-target="#the_menu">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="navbar-collapse collapse justify-content-end" id="the_menu">
+      <div class="dropdown">
+        <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false"> Plots</button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="nav-link" href="lat_v_cloud.html">Cloudiness</a>
+          <a class="nav-link" href="lat_v_humid.html">Humidity</a>
+          <a class="nav-link" href="lat_v_temp.html">Temperature</a>
+          <a class="nav-link" href="lat_v_wind.html">Wind Speed</a>
+        </div>
+      </div>
+      <a class="nav-link" href="comparisons.html">Comparisons</a>
+      <a class="nav-link" href="convertcsv.html">Data</a>
+    </div>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8">
+        <h2 id="plot_header" align="center">Cloudiness</h2>
+        <div class="card mb-3">
+          <img class="card-img-top" src="my_images/city_latitude_vs_cloudiness.png" alt="Lat. vs Cloudiness.">
+          <div class="card-body">
+            <h5 class="card-title">Latitude vs Cloudiness</h5>
+            <p class="card-text">While latitudes 10 through 30 had the highest number of cities reporting no cloud cover, there appears to be
+              no tendency for clouds to favor any particular geographic area.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4">
+        <h3 id="visualizations" align="center">Visualizations</h3>
+        <div class="card-columns">
+          <div class="card">
+            <a href="lat_v_cloud.html">
+              <img class="card-img-top" src="my_images/city_latitude_vs_cloudiness.png" alt="Cloudiness" width="150" height="150">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title" align="center">Cloudiness</h5>
+            </div>
+          </div>
+          <div class="card">
+            <a href="lat_v_humid.html">
+              <img class="card-img-top" src="my_images/city_latitude_vs_humidity.png" alt="Humidity" width="150" height="150">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title" align="center">Humidity</h5>
+            </div>
+          </div>
+          <div class="card">
+            <a href="lat_v_temp.html">
+              <img class="card-img-top" src="my_images/city_latitude_vs_max_temperature.png" alt="Max Temperature" width="150" height="150">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title" align="center">Temperature</h5>
+            </div>
+          </div>
+          <div class="card">
+            <a href="lat_v_wind.html">
+              <img class="card-img-top" src="my_images/city_latitude_vs_windspeed.png" alt="Wind Speed" width="150" height="150">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title" align="center">Wind Speed</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- These three script src lines make the javascript work -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

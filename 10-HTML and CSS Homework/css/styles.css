@@ -1,0 +1,112 @@
+/* This file includes changes to the formating of different elements */
+/* I have made 3 alphabetized groups (elements, classes, & ids) */
+/* ----------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------------- */
+/* elements---elements---elements---elements---elements---elements---elements---elements */
+/* ------------------------------------------------------------------------------------- */
+
+/* Sets background color throughout entire site */
+body {
+  background-color: rgb(233, 232, 232);
+}
+
+/* --------------------------------------------------------------------------------------- */
+/* classes---classes---classes---classes---classes---classes---classes---classes---classes */
+/* --------------------------------------------------------------------------------------- */
+
+/* Lines 11-56 set properties of cards in Visualizations grid appearing on right side of various pages */
+.card {
+  border: 5px;
+  border-color: gray;
+  background-color: white;
+  height: "200px";
+  margin-bottom: 13px;
+  /* padding-bottom: 0px; */
+  /* padding-top: 0px; */
+  /* margin-bottom: 0px; */
+  /* margin-top: 0px; */
+  width: "160px";
+}
+.card-body {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.card-columns {
+  column-count: 2;
+}
+.card-img-top {
+  margin-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 5px;
+  margin-top: 5px;
+  border-color: red;
+}
+.card-img-top:hover, .card-img-top:focus {
+  border-color: #2FA4E7
+
+}
+.card-title {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  color: rgb(230, 117, 11);
+}
+
+/* Creates a colored background behind items in dropdown list when cursor hovers over them  */
+.dropdown-menu a:hover, .dropdown-menu a:focus { 
+  background-color: #2FA4E7;
+  color: white;
+}
+
+/* Sets color of 3 bars appearing in navbar when on smaller screens */
+.fa-bars {
+  color: #2FA4E7;
+}
+
+/* Sets color of "Comparison" & "Data" links in navbar */
+.nav-link {
+  color: #2FA4E7;
+}
+
+/* Sets color of banner at top of page containing page title and nav links  */
+.navbar {
+  background-color: black
+}
+
+/* Sets <p> color on comparisons page  */
+.page_description {
+  color: black;
+}
+
+
+/* ------------------------------------------------------------------------------------------ */
+/* ---ids---ids---ids---ids---ids---ids---ids---ids---ids---ids---ids---ids---ids---ids---ids */
+/* ------------------------------------------------------------------------------------------ */
+
+
+/* Sets color of "Plots" link and background */
+#dropdownMenuButton {
+  background-color: rgba(194, 201, 199, 0.842);
+  color: rgb(16, 72, 94);
+}
+
+/* Sets text size on larger of 2 cards on landing page */
+#index_card_text {
+  font-size: 1.45em;
+  line-height: 2;
+}
+
+/* Sets color for header of each of the visualizaiton pages */
+#plot_header {
+  color: rgb(35, 108, 218);
+}
+
+/* Sets properties for header of visualizations grid appearing on right side of various pages */
+#visualizations {
+  color: rgb(35, 108, 218);
+  margin-bottom: 13px;
+}

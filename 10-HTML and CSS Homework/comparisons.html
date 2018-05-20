@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- This links to a specific bootswatch styling theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/cerulean/bootstrap.min.css">
+    <!-- This links to a local css file on your computer -->
+    <link rel="stylesheet" type='text/css' href="css/styles.css">
+    <!-- This links to fontawesome for text formats -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <title>Comparisons</title>
+</head>
+
+<body>
+    <header class="navbar navbar-light bg-light navbar-expand-md">
+        <div class="navbar-brand" role="navigation">
+            <i class="far fa-chart-bar"></i>
+            <a href="index.html"> Web Visuals</a>
+        </div>
+        <button class="btn btn-outline-primary navbar-toggler" data-toggle="collapse" data-target="#the_menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="navbar-collapse collapse justify-content-end" id="the_menu">
+            <div class="dropdown">
+                <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false"> Plots</button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="nav-link" href="lat_v_cloud.html">Cloudiness</a>
+                    <a class="nav-link" href="lat_v_humid.html">Humidity</a>
+                    <a class="nav-link" href="lat_v_temp.html">Temperature</a>
+                    <a class="nav-link" href="lat_v_wind.html">Wind Speed</a>
+                </div>
+            </div>
+            <a class="nav-link" href="comparisons.html">Comparisons</a>
+            <a class="nav-link" href="convertcsv.html">Data</a>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Comparison: Latitude vs X</h1>
+                <p class="page_description">
+                    Click any plot to get more information.
+                </p>
+
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">vs Cloudiness</h5>
+                                <a href="lat_v_cloud.html">
+                                    <img class="card-img-top" src="my_images\city_latitude_vs_cloudiness.png" alt="Cloudiness">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">vs Humidity</h5>
+                                <a href="lat_v_humid.html">
+                                    <img class="card-img-top" src="my_images\city_latitude_vs_humidity.png" alt="Humidity">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">vs Max Temperature</h5>
+                                <a href="lat_v_temp.html">
+                                    <img class="card-img-top" src="my_images\city_latitude_vs_max_temperature.png" alt="Max Temperature">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">vs Wind Speed</h5>
+                                <a href="lat_v_wind.html">
+                                    <img class="card-img-top" src="my_images\city_latitude_vs_windspeed.png" alt="Wind Sspeed">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- These three script src lines make the javascript work -->
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                    crossorigin="anonymous"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                    crossorigin="anonymous"></script>
+</body>
+
+</html>
