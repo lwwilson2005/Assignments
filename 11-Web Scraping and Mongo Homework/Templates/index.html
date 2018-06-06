@@ -35,23 +35,23 @@
     <br/>
 
 <div class="row">
-  <div class="col-sm-6" align = "center">
+  <div class="col-sm-6" align = "center">mars
 
-    <img class="w-75" src="{{ mars.mars_hemispheres[0].img_url }} "/>
-    <p>{{ mars.mars_hemispheres[0].title }}</p>
+    <img class="w-75" src="{{ mars_data_DB.mars_collection.mars_hemispheres[0].img_url }} "/>
+    <p>{{ mars_data_DB.mars_collection.mars_hemispheres[0].title }}</p>
     
-    <img class="w-75" src="{{ mars.mars_hemispheres[1].img_url }} "/>
-    <p>{{ mars.mars_hemispheres[1].title }}</p>
+    <img class="w-75" src="{{ mars_data_DB.mars_collection.mars_hemispheres[1].img_url }} "/>
+    <p>{{ mars_data_DB.mars_collection.mars_hemispheres[1].title }}</p>
       
   </div>
 
   <div class="col-sm-6"  align = "center">
 
-    <img class="w-75" src="{{ mars.mars_hemispheres[2].img_url }} "/>
-    <p>{{ mars.mars_hemispheres[2].title }}</p>
+    <img class="w-75" src="{{ mars_data_DB.mars_collection.mars_hemispheres[2].img_url }} "/>
+    <p>{{ mars_data_DB.mars_collection.mars_hemispheres[2].title }}</p>
     
-    <img class="w-75" src="{{ mars.mars_hemispheres[3].img_url }} "/>
-    <p>{{ mars.mars_hemispheres[3].title }}</p>
+    <img class="w-75" src="{{ mars_data_DB.mars_collection.mars_hemispheres[3].img_url }} "/>
+    <p>{{ mars_data_DB.mars_collection.mars_hemispheres[3].title }}</p>
       </div>
     </div>
   </div>
@@ -65,7 +65,7 @@
       <div class="card-body">
         <h5 class="card-title">Mars Facts</h5>
         <h6 class="card-subtitle mb-2 text-muted"></h6>
-        <p class="card-text">{{ mars.mars_facts|safe }}</p>
+        <p class="card-text">{{ mars_data_DB.mars_collection.mars_facts|safe }}</p>
         <a href="https://space-facts.com/" class="card-link">Space Facts</a>
         <a href="#" class="card-link"></a>
       </div>
