@@ -1,0 +1,6 @@
+<query schema-version="1.0" lang="en" type="search" sig="tPOHkNxTaY8E4pKoB2Yx8aSfreI">
+  <search-config>
+    <topic-search dimension-name="d_data_orig_year" dimension-value-name="2014"/>
+    <topic-search dimension-name="d_people_income" dimension-value-name="Income/Earnings (Individuals)"/>
+  </search-config>
+</query>
