@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from sys import platform
 import pandas as pd
-
+# comment
 
 
 def init_browser():
